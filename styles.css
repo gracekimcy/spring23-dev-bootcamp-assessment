@@ -1,0 +1,45 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 575px;
+
+    border: 10px solid skyblue;
+    background-color: lightblue;
+}
+
+.image {
+    margin: 10px 10px 10px 10px;
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+}
+
+figcaption {
+    font-family: "Arial";
+    font-size: 15px;
+    background-color: azure;
+}
+
+p {
+    text-align: center;
+
+    font-family: "Arial";
+    font-size: 15px;
+    background-color: azure;
+}
+
+.bioText {
+    width: 550px;
+}
+
+.button, figcaption {
+    margin-bottom: 10px;
+}
